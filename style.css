@@ -1,0 +1,52 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+}
+.container{
+    width: 1140;
+    margin-left: 150px;
+    margin-right: 150px;
+    /* border: 1px solid black; */
+}
+.header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-nav{
+    padding: 10px 0;
+    background-color: #174180;
+    color: #fff; 
+    
+}
+.header-logo{
+    float: left;
+    
+    
+}
+.menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0;   
+    text-align: center;
+}
+
+.menu-item{
+    display: inline-block;
+}
+
+.menu-link{
+    text-transform: uppercase;
+    padding: 0 15px;
+    background-color: rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
